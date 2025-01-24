@@ -15,6 +15,7 @@ app.use("/api/auth", authRoutes);
 
 const PORT = process.env.PORT
 connectDb();
+console.log("server is running!");
 
 
 app.get("/", (req, res) => {
