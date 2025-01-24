@@ -3,12 +3,12 @@ import cors from "cors"
 import { connectDb } from "./connectDatabase.js";
 import authRoutes from "./Routes/authRoutes.js"
 import dotenv from "dotenv"
+import profileRoutes from "./Routes/profileRoutes.js"
 dotenv.config();
 const app = express();
 app.use(express.json());
 
 
-app.use("/api/auth", authRoutes);
 
 //http://localhost:5000/api/auth//login
 //http://localhost:5000/api/auth//register
@@ -21,6 +21,15 @@ console.log("server is running!");
 app.get("/", (req, res) => {
   res.send("Yes,your server is working well!");
 });
+
+
+
+app.use("/api/auth", authRoutes);
+app.use("/api/profiles", profileRoutes);
+
+
+
+
 
 
 app.listen(PORT, () => {
