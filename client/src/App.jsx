@@ -44,3 +44,28 @@ const App = () => {
 };
 
 export default App;
+
+
+
+// {/* <Router>
+//       <Routes>
+//         {/* Public Routes (Login page) */}
+//         <Route path="/login" element={<LoginPage />} />
+        
+//         {/* Admin Routes */}
+//         <Route path="/admin/dashboard" element={<AdminDashboard />} />
+//         <Route path="/admin/user-management" element={<UserManagement />} />
+//         <Route path="/admin/reports" element={<Reports />} />
+//         <Route path="/admin/beneficiary-history/:cnic" element={<BeneficiaryHistory />} />
+
+//         {/* Receptionist Routes */}
+//         <Route path="/receptionist/register-beneficiary" element={<RegisterBeneficiary />} />
+
+//         {/* Department Staff Routes */}
+//         <Route path="/department/beneficiary/:tokenId" element={<BeneficiaryProfile />} />
+//         <Route path="/department/assistance/:tokenId" element={<AssistanceStatus />} />
+
+//         {/* Beneficiary Routes */}
+//         <Route path="/beneficiary/dashboard" element={<BeneficiaryDashboard />} />
+//       </Routes>
+//     </Router> */}

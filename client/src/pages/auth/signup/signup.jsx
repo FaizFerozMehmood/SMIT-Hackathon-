@@ -45,7 +45,7 @@ function Signup() {
             
         } catch (error) {
             setLoading(false)
-            console.log(error.response.data.message);
+            console.log(error.response?.data?.message);
             return toast.error(error?.response?.data.message, {
                 position: "top-right",
                 autoClose: 5000,
