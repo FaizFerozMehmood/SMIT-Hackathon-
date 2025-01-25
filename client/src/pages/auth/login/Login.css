@@ -1,0 +1,148 @@
+/* LoginForm.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom, #06b6d4, #ec4899);
+    padding: 0 20px; /* Adding some padding for small screen sizes */
+    box-sizing: border-box;
+  }
+  
+  .login-card {
+    width: 100%;
+    max-width: 400px; /* Set a max-width for the card */
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+  }
+  
+  .login-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .form-input {
+    padding: 15px 0;
+
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .form-footer {
+    text-align: right;
+    margin-bottom: 15px;
+  }
+  
+  .forgot-password {
+    color: #06b6d4;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background: linear-gradient(to right, #06b6d4, #ec4899);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  .login-button:hover {
+    opacity: 0.9;
+  }
+  
+  .signup-options p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .social-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+  }
+  
+  .social-button.blue {
+    background-color: #3b5998;
+  }
+  
+  .social-button.light-blue {
+    background-color: #00aced;
+  }
+  
+  .social-button.red {
+    background-color: #dd4b39;
+  }
+  
+  .social-button.pink {
+    background-color: #e1306c;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .login-card {
+      padding: 15px;
+    }
+  
+    .login-title {
+      font-size: 20px;
+    }
+  
+    .form-group label {
+      font-size: 12px;
+    }
+  
+    .form-input {
+      font-size: 10px;
+    }
+  
+    .login-button {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .social-button {
+      width: 35px;
+      height: 35px;
+    }
+  }
+  
